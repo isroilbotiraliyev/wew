@@ -13,8 +13,8 @@ for ( let i = 0 ; i < misol; i++) {
         }
     }
     else if (misol1 > 31 || misol2 < 31) {
-        var natija = misol1 - misol2;
-        var javob = +prompt(`${misol1} - ${misol2} `)
+        var natija = misol2 - misol1;
+        var javob = +prompt(`${misol2} - ${misol1} `)
         if (natija == javob){
             console.log(`sizning javob to'g'ri - ${javob}`);
     
